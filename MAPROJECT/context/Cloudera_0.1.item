@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_CL_r4IYZEeijP5Vpz_QkWA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_CL_r4YYZEeijP5Vpz_QkWA" comment="" name="Cloudera_ResourceManager" prompt="Cloudera_ResourceManager?" promptNeeded="false" type="id_String" value="quickstart.cloudera:8032"/>
+  <contextParameter xmi:id="_CL_r4oYZEeijP5Vpz_QkWA" comment="" name="Cloudera_User" prompt="Cloudera_User?" promptNeeded="false" type="id_String" value="cloudera"/>
+  <contextParameter xmi:id="_CL_r44YZEeijP5Vpz_QkWA" comment="" name="Cloudera_NameNodeUri" prompt="Cloudera_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://quickstart.cloudera:8020"/>
+  <contextParameter xmi:id="_CL_r5IYZEeijP5Vpz_QkWA" comment="" name="Cloudera_StagingDirectory" prompt="Cloudera_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+  <contextParameter xmi:id="_CL_r5YYZEeijP5Vpz_QkWA" comment="" name="Cloudera_ResourceManagerScheduler" prompt="Cloudera_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="quickstart.cloudera:8030"/>
+  <contextParameter xmi:id="_CL_r5oYZEeijP5Vpz_QkWA" comment="" name="Cloudera_JobHistory" prompt="Cloudera_JobHistory?" promptNeeded="false" type="id_String" value="quickstart.cloudera:10020"/>
+</talendfile:ContextType>

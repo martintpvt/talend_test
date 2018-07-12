@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_m4wWcIYTEeijP5Vpz_QkWA" DatabaseType="Hive" URL="jdbc:hive2://quickstart.cloudera:10000/default" Port="10000" Username="cloudera" ServerName="quickstart.cloudera" SID="default" DbmsId="hive_id" ProductId="HIVE">
   <parameters xmi:id="_m4wWcYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_USE_YARN" value="true"/>
-  <parameters xmi:id="_m4wWcoYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="quickstart.cloudera:8030"/>
+  <parameters xmi:id="_m4wWcoYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="context.Cloudera_ResourceManagerScheduler"/>
   <parameters xmi:id="_m4wWc4YTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
-  <parameters xmi:id="_m4wWdIYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://quickstart.cloudera:8020"/>
-  <parameters xmi:id="_m4wWdYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_USERNAME" value="cloudera"/>
+  <parameters xmi:id="_m4wWdIYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_NAME_NODE_URL" value="context.Cloudera_NameNodeUri"/>
+  <parameters xmi:id="_m4wWdYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_USERNAME" value="context.Cloudera_User"/>
   <parameters xmi:id="_m4wWdoYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_5__0cIYQEeijP5Vpz_QkWA"/>
   <parameters xmi:id="_m4wWd4YTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_m4w9gIYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_10"/>
-  <parameters xmi:id="_m4w9gYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="quickstart.cloudera:8032"/>
-  <parameters xmi:id="_m4w9goYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="quickstart.cloudera:10020"/>
+  <parameters xmi:id="_m4w9gYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="context.Cloudera_ResourceManager"/>
+  <parameters xmi:id="_m4w9goYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="context.Cloudera_JobHistory"/>
   <parameters xmi:id="_m4w9g4YTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_10"/>
   <parameters xmi:id="_m4w9hIYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
   <parameters xmi:id="_m4w9hYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_DB_SERVER" value="quickstart.cloudera"/>
@@ -21,7 +21,7 @@
   <parameters xmi:id="_m4w9i4YTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA"/>
   <parameters xmi:id="_m4w9jIYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_USE_KRB" value="false"/>
   <parameters xmi:id="_m4w9jYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
-  <parameters xmi:id="_m4w9joYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_m4w9joYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="context.Cloudera_StagingDirectory"/>
   <parameters xmi:id="_m4w9j4YTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_m4w9kIYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
   <parameters xmi:id="_m4w9kYYTEeijP5Vpz_QkWA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
