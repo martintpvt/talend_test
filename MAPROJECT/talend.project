@@ -7,6 +7,20 @@
     <documentationStatus xmi:id="_nF3CUIXnEeiwq6QLyhzRVA" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_nF3CUYXnEeiwq6QLyhzRVA" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_nF3CUoXnEeiwq6QLyhzRVA" label="validated" code="VAL"/>
+    <ItemsRelations xmi:id="_3IIAsIYWEeijP5Vpz_QkWA">
+      <baseItem xmi:id="_3IInwIYWEeijP5Vpz_QkWA" id="_5ymKQIYTEeijP5Vpz_QkWA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_3IInwYYWEeijP5Vpz_QkWA" id="_m2tIAIYTEeijP5Vpz_QkWA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_3IInwoYWEeijP5Vpz_QkWA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInw4YWEeijP5Vpz_QkWA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInxIYWEeijP5Vpz_QkWA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInxYYWEeijP5Vpz_QkWA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInxoYWEeijP5Vpz_QkWA" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInx4YWEeijP5Vpz_QkWA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInyIYWEeijP5Vpz_QkWA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInyYYWEeijP5Vpz_QkWA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IInyoYWEeijP5Vpz_QkWA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_3IIny4YWEeijP5Vpz_QkWA" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_nEwPEIXnEeiwq6QLyhzRVA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_nEwPEYXnEeiwq6QLyhzRVA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_nEwPEoXnEeiwq6QLyhzRVA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
