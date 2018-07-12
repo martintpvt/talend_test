@@ -105,7 +105,7 @@
     <routinesParameter id="_nWZYs4XnEeiwq6QLyhzRVA" name="TalendStringUtil"/>
     <routinesParameter id="_nWGdw4XnEeiwq6QLyhzRVA" name="TalendString"/>
   </parameters>
-  <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="224">
+  <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_m2tIAIYTEeijP5Vpz_QkWA" show="false"/>
