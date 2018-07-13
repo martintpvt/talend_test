@@ -108,50 +108,48 @@
     <routinesParameter id="_nWZYs4XnEeiwq6QLyhzRVA" name="TalendStringUtil"/>
     <routinesParameter id="_nWGdw4XnEeiwq6QLyhzRVA" name="TalendString"/>
   </parameters>
-  <node componentName="tHDFSPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_m2tIAIYTEeijP5Vpz_QkWA" show="false"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="CLOUDERA"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="Cloudera_CDH5_10"/>
-    <elementParameter field="HADOOP_DISTRIBUTION" name="HDFS" value=""/>
-    <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value="" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MODE" value="USERNAME" show="false"/>
-    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="context.Cloudera_NameNodeUri"/>
-    <elementParameter field="CHECK" name="USE_DATANODE_HOSTNAME" value="true"/>
-    <elementParameter field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;" show="false"/>
-    <elementParameter field="CHECK" name="USE_KEYTAB" value="false" show="false"/>
-    <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
-    <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
-    <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;cloudera&quot;"/>
-    <elementParameter field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
-    <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
-    <elementParameter field="TEXT" name="MAPRTICKET_DURATION" value="86400L" show="false"/>
-    <elementParameter field="DIRECTORY" name="LOCALDIR" value="&quot;C:/Users/marti/OneDrive/Documents/work/mapr_talend/output&quot;"/>
-    <elementParameter field="DIRECTORY_HADOOP" name="REMOTEDIR" value="&quot;/user/cloudera/BDBasics/erp&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="OVERWRITE" value="false"/>
-    <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
-    <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="&quot;refProducts.csv&quot;"/>
-      <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="100" show="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="customer"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cust_name"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="product"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quantity"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="price"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="discount"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="order_date"/>
+      <elementValue elementRef="ARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="shipped"/>
+      <elementValue elementRef="ARRAY" value=""/>
     </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
-    <elementParameter field="CHECK" name="SET_MAPR_HOME_DIR" value="false" show="false"/>
-    <elementParameter field="TEXT" name="MAPR_HOME_DIR" value="&quot;/opt/mapr&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_HADOOP_LOGIN" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HADOOP_LOGIN" value="&quot;kerberos&quot;" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="Cloudera_HDFS"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tHDFSPut_1"/>
+    <metadata connector="FLOW" name="tRowGenerator_1">
+      <column comment="" key="true" length="8" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="customer" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="cust_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="product" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="quantity" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="price" nullable="true" pattern="" precision="2" sourceType="" type="id_Long" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="discount" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="6" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="total" nullable="true" pattern="" precision="2" sourceType="" type="id_Long" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="order_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="shipped" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
   </node>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSPut_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
