@@ -123,11 +123,11 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="quantity"/>
       <elementValue elementRef="ARRAY" value="Numeric.random(0 ,100 )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="price"/>
-      <elementValue elementRef="ARRAY" value=" ThreadLocalRandom.current().nextLong(100) "/>
+      <elementValue elementRef="ARRAY" value="Numeric.random(0 ,100 )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="discount"/>
       <elementValue elementRef="ARRAY" value="Numeric.random(0 ,100 )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="total"/>
-      <elementValue elementRef="ARRAY" value=" ThreadLocalRandom.current().nextLong(100) "/>
+      <elementValue elementRef="ARRAY" value="Numeric.random(0 ,100 )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="order_date"/>
       <elementValue elementRef="ARRAY" value="TalendDate.getRandomDate(&quot;2007-01-01&quot; ,&quot;2008-12-31&quot; )"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="shipped"/>
@@ -151,14 +151,14 @@
       <column comment="" key="false" length="8" name="quantity" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
-      <column comment="" key="false" length="12" name="price" nullable="true" pattern="" precision="2" sourceType="" type="id_Long" originalLength="12" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot; ThreadLocalRandom.current().nextLong(100) &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      <column comment="" key="false" length="12" name="price" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="12" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
       <column comment="" key="false" length="6" name="discount" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="6" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
-      <column comment="" key="false" length="12" name="total" nullable="true" pattern="" precision="2" sourceType="" type="id_Long" originalLength="12" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot; ThreadLocalRandom.current().nextLong(100) &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      <column comment="" key="false" length="12" name="total" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="12" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="order_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getRandomDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2007-01-01\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2008-12-31\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
@@ -214,14 +214,14 @@
       <column comment="" key="false" length="8" name="quantity" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
-      <column comment="" key="false" length="12" name="price" nullable="true" pattern="" precision="2" sourceType="" type="id_Long" originalLength="12" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot; ThreadLocalRandom.current().nextLong(100) &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      <column comment="" key="false" length="12" name="price" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="12" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
       <column comment="" key="false" length="6" name="discount" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="6" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
-      <column comment="" key="false" length="12" name="total" nullable="true" pattern="" precision="2" sourceType="" type="id_Long" originalLength="12" usefulColumn="true">
-        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot; ThreadLocalRandom.current().nextLong(100) &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      <column comment="" key="false" length="12" name="total" nullable="true" pattern="" precision="2" sourceType="" type="id_Integer" originalLength="12" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;random&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;0 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;100 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="order_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getRandomDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2007-01-01\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2008-12-31\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
